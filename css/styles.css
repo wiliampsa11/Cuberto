@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header h1 {
+    font-size: 80px;
+    color: teal;
+}
+
+.header h2 {
+    font-size: 30px;
+}
+
+.one-column {
+    float: left;
+    width: 100%;
+    padding: 7%;
+}
+
+.two-column {
+    float: left;
+    width: 50%;
+    padding: 7%;
+}
+
+.two-column img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 7%;
+}
+
+#section-1 {
+    background-color: #F5EEF5;
+}
+
+#section-2 {
+    background-color: #FAF5F3;
+}
+
+#section-3 {
+    background-color: #F2F9F8;
+}
+
+#section-4 {
+    background-color: #000000;
+    color: white;
+}
+
+.h1 {
+    font-size: 4.5vw;
+    color: grey;
+}
+
+.h2 {
+    font-size: 3vw;
+}
+
+.h3 {
+    font-size: 2vw;
+}
+
+@media screen and (max-width:700px) {
+    .header,
+    .one-column,
+    .two-column {
+        width: 100%;
+    }
+    .four-column {
+        width: 50%;
+    }
+    .h1 {
+        font-size: 6vw;
+    }
+    .h2 {
+        font-size: 5vw;
+    }
+    .h3 {
+        font-size: 4vw;
+    }
+}
